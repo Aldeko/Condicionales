@@ -623,46 +623,70 @@ namespace ConsoleApp1
             //{
             //    Console.WriteLine("No es bisiesto");
             //}
-        
+
             //Console.ReadLine();
 
             //EJERCICIO 21
             //Menu con varias opciones
 
-            Console.WriteLine("Escoje la opcion que mas se adapte a ti");
-            Console.WriteLine("alto     mediano     pequeño");
-            string altura;
-            altura = Console.ReadLine();
+            //Console.WriteLine("Escoje la opcion que mas se adapte a ti");
+            //Console.WriteLine("alto     mediano     pequeño");
+            //string altura;
+            //altura = Console.ReadLine();
 
-            if (altura== "alto")
-            {
-                Console.WriteLine("Has escojido alto");
-            }
-            else if (altura=="mediano")
-            {
-                Console.WriteLine("Has escojido mediano");
-            }
-            else if (altura == "pequeño")
-            {
-                Console.WriteLine("Has escojido pequeño");
-            }
+            //if (altura== "alto")
+            //{
+            //    Console.WriteLine("Has escojido alto");
+            //}
+            //else if (altura=="mediano")
+            //{
+            //    Console.WriteLine("Has escojido mediano");
+            //}
+            //else if (altura == "pequeño")
+            //{
+            //    Console.WriteLine("Has escojido pequeño");
+            //}
 
-            switch (altura)
+            //switch (altura)
+            //{
+            //    case "alto":
+            //        Console.WriteLine("Has escojido alto");
+            //        break;
+            //    case "mediano":
+            //        Console.WriteLine("Has escojido mediano");
+            //        break;
+            //    case "pequeño":
+            //        Console.WriteLine("Has escojido pequeño");
+            //        break;
+            //}
+
+            //Console.ReadLine();
+
+            //EJERCICIO 22
+            //Mayor de tres valores
+
+            Console.WriteLine("escribe un número");
+            int num20, num21, num22;
+            num20 = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("escribe un número");
+            num21 = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("escribe un número");
+            num22 = Int32.Parse(Console.ReadLine());
+
+            if (num20>num21 && num20>num22)
             {
-                case "alto":
-                    Console.WriteLine("Has escojido alto");
-                    break;
-                case "mediano":
-                    Console.WriteLine("Has escojido mediano");
-                    break;
-                case "pequeño":
-                    Console.WriteLine("Has escojido pequeño");
-                    break;
+                Console.WriteLine(num20);
+            }
+            else if (num21>num20 && num21>num22)
+            {
+                Console.WriteLine(num21);
+            }
+            else if (num22 > num20 && num22 > num21)
+            {
+                Console.WriteLine(num22);
             }
 
             Console.ReadLine();
-
-
 
         }
 
